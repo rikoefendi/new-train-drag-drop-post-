@@ -49971,7 +49971,7 @@ exports = module.exports = __webpack_require__(2)(false);
 
 
 // module
-exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
+exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
 
 // exports
 
@@ -49982,26 +49982,6 @@ exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 //
 //
 //
@@ -50024,68 +50004,7 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c(
-    "div",
-    [
-      _c(
-        "b-btn",
-        {
-          directives: [
-            {
-              name: "b-modal",
-              rawName: "v-b-modal.myModal",
-              modifiers: { myModal: true }
-            }
-          ]
-        },
-        [_vm._v("Show Modal")]
-      ),
-      _vm._v(" "),
-      _c(
-        "b-btn",
-        {
-          directives: [
-            {
-              name: "b-modal",
-              rawName: "v-b-modal",
-              value: "myModal",
-              expression: "'myModal'"
-            }
-          ]
-        },
-        [_vm._v("Show Modal")]
-      ),
-      _vm._v(" "),
-      _c(
-        "b-modal",
-        { staticClass: "new", attrs: { id: "myModal", size: "lg" } },
-        [
-          _c(
-            "b-tabs",
-            [
-              _c("b-tab", { attrs: { title: "first", active: "" } }, [
-                _c("br"),
-                _vm._v("I'm the first fading tab\n      ")
-              ]),
-              _vm._v(" "),
-              _c("b-tab", { attrs: { title: "second" } }, [
-                _c("br"),
-                _vm._v("I'm the second tab content\n      ")
-              ]),
-              _vm._v(" "),
-              _c("b-tab", { attrs: { title: "disabled", disabled: "" } }, [
-                _c("br"),
-                _vm._v("Disabled tab!\n      ")
-              ])
-            ],
-            1
-          )
-        ],
-        1
-      )
-    ],
-    1
-  )
+  return _c("div")
 }
 var staticRenderFns = []
 render._withStripped = true
